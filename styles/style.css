@@ -1,0 +1,251 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+
+:root {
+    --cor0: rgba(0, 0, 0, 0.192);
+    --cor01: white;
+    --cor02: #eaf4f8ea;
+    --cor03: #0ACDFF;
+    --cor04: #0acefff1;
+    --cor05: rgb(2, 2, 36);
+    --font1: 'Mansalva', sans-serif;
+    --font2: 'Amatic SC', cursive;
+}
+/*
+font-family: 'Mansalva', sans-serif;
+    --cor03: #0ACDFF;
+    --cor04: #0acefff1;
+    --cor03: #0F0F0F;
+    --cor04: #191919;
+*/
+
+* { 
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font1);
+    letter-spacing: 0.1em;
+    scroll-behavior: smooth;
+    background-color: var(--cor1);
+}
+
+/*Background Page*/
+.bg {
+    width: auto;
+    height: 60em;
+    background-image: linear-gradient(to top, #6ee2ff25, rgba(201, 247, 255, 0.164));
+}
+
+.bg-services {
+    height: 6em;
+} /*services.html header height*/
+
+/*Background Services*/
+.bg2 {
+    height: 1100px;
+    width: auto;
+} 
+/*
+.bg3 {
+    margin-top: 2em;
+    height: 200px;
+    width: auto;
+    background-color: slategrey;
+}
+*/
+/*Background Portfolio*/
+.bg4 {
+    height: 1480px;
+    width: auto;
+    margin: 4em 1em 4em;
+    background-color: var(--cor01);
+} 
+
+/*end bg*/
+
+.mainBG {
+    height: 342px;
+    width: 342px;
+}
+
+body{  
+  font-family: var(--font1);
+  margin:0;
+  width:100%;
+  height:100vh;
+  text-align: center;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+header{
+  padding: 0.5em;
+  width:100%; 
+  height:6em; 
+  line-height:60px;
+  border-bottom:1px solid  rgb(192, 240, 255);
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor03);
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links ul, li {
+    display: contents;
+}
+
+.nav_links li a {
+    font-family: var(--font2);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0.5em 0.5em;
+    color: var(--cor03);
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: var(--cor05);
+
+}
+
+ul#list {
+    list-style-image: url('images/logo1.jpg');
+}
+
+footer {
+    padding: 0.4em 0.5em;
+    height: 6vh;
+    border-top:1px solid rgb(192, 240, 255);     
+}
+
+img {
+    height: 30px;
+    width: 30px;
+    
+}
+
+footer > p a {
+    font-size: 18px;
+    color: var(--cor04);
+    text-align: center;
+}
+
+.footer-small-font {
+    font-size: 16px;
+}
+
+h1 {
+    font-family: var(--font2);
+    color: var(--cor03);
+    text-transform: uppercase;
+}
+
+h2, h3, h4, p {
+    color: var(--cor04);
+}
+
+.padd2 {  
+    padding: 2em 1em;
+}
+
+.pdefault {
+    margin: 1.2em;
+    border: 5px solid rgba(255, 255, 255, 0.123);
+    border-radius: 1em;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.144);
+    box-shadow: 0.2em 0.2em 0.2em 0.1em rgba(0, 0, 0, 0.2);
+}
+
+/* Default Button*/
+
+.button {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: var(--cor03);
+    border: none;
+    color: var(--cor01);
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0.2em 0.2em 0.2em 0.1em rgba(0, 0, 0, 0.2);
+
+  }
+  
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\21D3';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button a {
+    color: var(--cor01);
+    font-family: var(--font1);
+    font-weight: bolder;
+}
+
+.img500 {
+    height: 412px;
+    width: 412px;
+}
+
+/*Shop Page*/
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 20em;
+    border: 1px solid #04a5aa;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    background-color: #04a5aa;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+/*Shop Page End*/
