@@ -9,9 +9,11 @@
     --cor03: #0ACDFF;
     --cor04: #0acefff1;
     --cor05: rgb(2, 2, 36);
+    --cor06: rgba(0, 5, 7, 0.788);
     --font1: 'Mansalva', sans-serif;
     --font2: 'Amatic SC', cursive;
 }
+
 /*
 font-family: 'Mansalva', sans-serif;
     --cor03: #0ACDFF;
@@ -20,7 +22,7 @@ font-family: 'Mansalva', sans-serif;
     --cor04: #191919;
 */
 
-* { 
+* {
     margin: 0px;
     padding: 0px;
     font-family: var(--font1);
@@ -38,13 +40,21 @@ font-family: 'Mansalva', sans-serif;
 
 .bg-services {
     height: 6em;
-} /*services.html header height*/
+}
+
+/*services.html header height*/
 
 /*Background Services*/
 .bg2 {
-    height: 1100px;
+    height: 500px;
     width: auto;
-} 
+}
+
+.bg-servicespage {
+    height: 900px;
+    width: auto;
+}
+
 /*
 .bg3 {
     margin-top: 2em;
@@ -57,9 +67,9 @@ font-family: 'Mansalva', sans-serif;
 .bg4 {
     height: 1480px;
     width: auto;
-    margin: 4em 1em 4em;
+    margin: 0px;
     background-color: var(--cor01);
-} 
+}
 
 /*end bg*/
 
@@ -68,24 +78,25 @@ font-family: 'Mansalva', sans-serif;
     width: 342px;
 }
 
-body{  
-  font-family: var(--font1);
-  margin:0;
-  width:100%;
-  height:100vh;
-  text-align: center;
+body {
+    font-family: var(--font1);
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
 }
 
 .logo {
     height: 60px;
     width: 60px;
 }
-header{
-  padding: 0.5em;
-  width:100%; 
-  height:6em; 
-  line-height:60px;
-  border-bottom:1px solid  rgb(192, 240, 255);
+
+header {
+    padding: 0.5em;
+    width: 100%;
+    height: 6em;
+    line-height: 60px;
+    border-bottom: 1px solid rgb(192, 240, 255);
 }
 
 a {
@@ -97,7 +108,8 @@ a {
     list-style: none;
 }
 
-.nav_links ul, li {
+.nav_links ul,
+li {
     display: contents;
 }
 
@@ -122,16 +134,16 @@ ul#list {
 footer {
     padding: 0.4em 0.5em;
     height: 6vh;
-    border-top:1px solid rgb(192, 240, 255);     
+    border-top: 1px solid rgb(192, 240, 255);
 }
 
 img {
     height: 30px;
     width: 30px;
-    
+
 }
 
-footer > p a {
+footer>p a {
     font-size: 18px;
     color: var(--cor04);
     text-align: center;
@@ -147,11 +159,30 @@ h1 {
     text-transform: uppercase;
 }
 
-h2, h3, h4, p {
+h2,
+h3,
+h4,
+p {
     color: var(--cor04);
 }
 
-.padd2 {  
+.subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: var(--font2);
+    color: var(--cor06);
+    letter-spacing: 0.2em;
+}
+
+.subtitle2 {
+    font-weight: 600;
+    font-size: 30px;
+    font-family: var(--font1);
+    color: var(--cor06);
+    letter-spacing: 0.2em;
+}
+
+.padd2 {
     padding: 2em 1em;
 }
 
@@ -181,31 +212,31 @@ h2, h3, h4, p {
     margin: 5px;
     box-shadow: 0.2em 0.2em 0.2em 0.1em rgba(0, 0, 0, 0.2);
 
-  }
-  
+}
+
 .button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
 }
 
 .button span:after {
-  content: '\21D3';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+    content: '\2191';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
 }
 
 .button:hover span {
-  padding-right: 25px;
+    padding-right: 25px;
 }
 
 .button:hover span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
 
 .button a {
@@ -222,13 +253,14 @@ h2, h3, h4, p {
 /*Shop Page*/
 form {
     border: 3px solid #f1f1f1;
-  }
-  
-  .container {
+}
+
+.container {
     padding: 20px;
-  }
-  
-  input[type=text], input[type=submit] {
+}
+
+input[type=text],
+input[type=submit] {
     width: 100%;
     padding: 12px;
     margin: 8px 0;
@@ -236,16 +268,16 @@ form {
     border-radius: 20em;
     border: 1px solid #04a5aa;
     box-sizing: border-box;
-  }
-  
-  input[type=submit] {
+}
+
+input[type=submit] {
     background-color: #04a5aa;
     color: white;
     border: none;
-  }
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     opacity: 0.8;
-  }
+}
 
 /*Shop Page End*/
