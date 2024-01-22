@@ -1,167 +1,241 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kiui Studio - Web development and Game studio" />
-    <meta name="keywords" content="HTML, CSS, studio, website, webdev, art, digitalart, development, game development, creation, character design, game assets, game design">
-    <meta http-equiv="refresh" content="30">
-    <link rel="icon" type="image/x-icon" href="../images/logo.png">
-    <title>Kiui Studio</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/media.css">
-    <link rel="stylesheet" href="styles/portfolio.css">
-    <link rel="stylesheet" href="styles/media-query.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kiui Studio - Web development and Game studio" />
+  <meta name="keywords"
+    content="HTML, CSS, studio, website, webdev, art, digitalart, development, game development, creation, character design, game assets, game design">
+  <meta http-equiv="refresh" content="30">
+  <link rel="icon" type="image/x-icon" href="../images/logo.png">
+  <title>Kiui Studio</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/media.css">
+  <link rel="stylesheet" href="styles/portfolio.css">
+  <link rel="stylesheet" href="styles/media-query.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
+
 <body>
-<!--Header Page-->
-    <div class="bg">
-        <!--Menu Navigation-->
-        <header>            
-            <nav class="nav_links">
-                <li><a href="index.html" target="_self">Home</a></li>
-                <li><a href="portfolio.html" target="_self">Portfolio</a></li>
-                <li><a href="services.html" target="_self">Services</a></li>
-            </nav>
+  <!--Header Page-->
+  <div class="bg">
+    <!--Menu Navigation-->
+    <header>
+      <nav class="nav_links">
+        <li><a href="index.html" target="_self">Home</a></li>
+        <li><a href="portfolio.html" target="_self">Portfolio</a></li>
+        <li><a href="blog.html" target="_self">Blog</a></li>
+      </nav>
 
-        <img class="logo" src="images/logo.png" alt="kiui-logo">
-            
-        </header>
-        <!--Centralized Main Image-->
-        <div class="padd">
-            <br/>
-            <br/>
-            <h1 class="animate__animated animate__backInDown">Kiui Studio</h1>
-            <p class="animate__animated animate__flash">Web Development & Game Design</p>
-            <img src="images/main.png" alt="main" class="mainBG">
-            <br/>
-            <br/>
-            <!--Itch io Button-->
-            <button class="button">
-                <a href="shop.html" target="_self">Kiui Shop</a>
-            </button>
-            <!--Blog Button-->
-            <button class="button">
-              <a href="blog.html" target="_self">Kiui Blog</a>
-            </button>
-        </div>
+      <img class="logo" src="images/logo.png" alt="kiui-logo">
 
-
+    </header>
+    <!--Centralized Main Image-->
+    <div class="padd">
+      <br />
+      <br />
+      <h1 class="animate__animated animate__backInDown">Kiui Studio</h1>
+      <p class="animate__animated animate__flash">Web Development & Game Design</p>
+      <img src="images/main.png" alt="main" class="mainBG">
+      <br />
+      <br />
+      <!--Itch io Button-->
+      <button class="button">
+        <a href="https://kiuistudio.itch.io/" target="_blank">Itch.io</a>
+      </button>
+      <!--Blog Button
+              <button class="button">
+                <a href="blog.html" target="_self">Kiui Blog</a>
+              </button>
+            -->
     </div>
-<!--Header Page-->
 
 
-<!--Portfolio Section-->
-<section class="bg4">
-<div class="padd">
-<br>
-<h1 class="animate__animated animate__flash">Portfolio</h1>
-    <br/>
-    <p>              
-        <a href="https://instagram.com/kiuistudiodev" target="_blank"> 
-            <img src="images/instagram.png" alt="Github"> 
+  </div>
+  <!--Header Page-->
+
+
+  <!--Portfolio Section-->
+  <section class="bg4">
+    <div class="padd">
+      <br>
+      <h1 class="animate__animated animate__flash">Portfolio</h1>
+      <br />
+      <p>
+        <a href="https://instagram.com/kiuistudiodev" target="_blank">
+          <img src="images/social/instagram.png" alt="Github">
         </a> @kiuistudiodev
-    </p>
-    <br/>
+      </p>
+      <br />
 
 
-<!--Cards Flexbox-->
+      <!--Cards Flexbox-->
 
-<ul class="cards">
-    <li class="cards__item">
-      <div class="card">
-        <div class="card__image card__image--software"></div>
-        <div class="card__content">
-          <div class="card__title">Softwares</div>
-          <br/>
-          <p class="card__text">WebDev, Game Development and programming.</p>
-          <br/>
-          <button class="button2 btn--block card__btn">
-            <a href="portfolio.html" target="_self">Software Portfolio</a>
-            </button>
-        </div>
-      </div>
-    </li>
+      <ul class="cards">
+        <li class="cards__item">
+          <div class="card">
+            <div class="card__image card__image--software"></div>
+            <div class="card__content">
+              <div class="card__title">Softwares</div>
+              <br />
+              <p class="subtitle" class="card__text">WebDev, Game Development and programming.</p>
+              <br />
+              <button class="button2 btn--block card__btn">
+                <a href="portfolio.html" target="_self">Software Portfolio</a>
+              </button>
+            </div>
+          </div>
+        </li>
 
-    <li class="cards__item">
-      <div class="card">
-        <div class="card__image card__image--artwork"></div>
-        <div class="card__content">
-          <div class="card__title">Artwork</div>
-          <br/>
-          <p class="card__text">Game Design, Illustration, UI/UX design.</p>
-          <br/>
-          <button class="button2 btn--block card__btn">
-            <a href="artwork.html" target="_self">Artwork Portfolio</a>
-        </button>
-        </div>
-      </div>
-    </li>
-    <li class="cards__item">
-      <div class="card">
-        <div class="card__image card__image--contact"></div>
-        <div class="card__content">
-          <div class="card__title">Contact Us</div>
-          <br/>
-          <p class="card__text">Watch our social media or send us an email.</p>
-          <button class="button2 btn--block card__btn">
-            <a href="contact.html" target="_self">Contact Us</a>
-          </button>
-        </div>
-      </div>
-    </li>
-  </ul>
+        <li class="cards__item">
+          <div class="card">
+            <div class="card__image card__image--artwork"></div>
+            <div class="card__content">
+              <div class="card__title">Artwork</div>
+              <br />
+              <p class="subtitle" class="card__text">Game Design, Illustration, UI/UX design.</p>
+              <br />
+              <button class="button2 btn--block card__btn">
+                <a href="artwork.html" target="_self">Artwork Portfolio</a>
+              </button>
+            </div>
+          </div>
+        </li>
+        <li class="cards__item">
+          <div class="card">
+            <div class="card__image card__image--contact"></div>
+            <div class="card__content">
+              <div class="card__title">Kiui Staff</div>
+              <br />
+              <p class="subtitle" class="card__text">page in development, I'm not sure what issue put here.</p>
+              <br />
+              <button class="button2 btn--block card__btn">
+                <a href="page.html" target="_self">Watch staff</a>
+              </button>
+            </div>
+          </div>
+        </li>
+      </ul>
 
-<!--End Card Flexbox-->
+      <!--End Card Flexbox-->
 
-</section> 
-<!--End Portfolio Section-->
+  </section>
+  <!--End Portfolio Section-->
+
+  <!--Services Section -->
+  <section class="bg2" id="services">
+    <div class="padd">
+      <br>
+      <h1>Our Work</h1>
+      <br>
+      <p class="subtitle">Game Developement</p>
+      <br />
+
+      <p class="subtitle">Website Developement</p>
+      <br />
+
+      <p class="subtitle">Game Character Design</p>
+      <br />
+
+      <p class="subtitle">Game assets for icons, backgrounds and illustrations</p>
+      <br />
+
+      <h3 class="subtitle">More Info</h3>
+      <br>
+      <button class="button">
+        <a href="services.html" target="_self">
+          <span>Services</span>
+        </a></button>
+      <br>
+
+  </section>
+  <!--End service section-->
 
 
-<!--About Section -->
-<section class="bg1">
+
+  <!--About Section -->
+  <section class="bg1">
     <div class="padd2">
-        <br>
-        <h1 class="animate__animated animate__flash">KIUI STUDIO</h1>
-        <br />
-        <p>We cover everything from game design theory to programming languages and tools.</p>
-        <br />
-        <h3>Mission</h3>
-        <br />
-        <p>Evolutionary consistency in game development</p> 
-        <br />
-   
-        <h3>Vision</h3>
-        <br />
-        <p>Creative games</p>
-        <br />
-        <h3>Values</h3>
-        <br />
-        <p>Transparent, Creative and Fun.</p>
+      <br>
+      <h1 class="animate__animated animate__flash">KIUI STUDIO</h1>
+      <br />
+      <p class="subtitle">We cover everything from game design theory to programming languages and tools.</p>
+      <br />
+      <h3>Mission</h3>
+      <br />
+      <p class="subtitle">Evolutionary consistency in game development</p>
+      <br />
+
+      <h3>Vision</h3>
+      <br />
+      <p class="subtitle">Creative games</p>
+      <br />
+      <h3>Values</h3>
+      <br />
+      <p class="subtitle">Transparent, Creative and Fun.</p>
     </div>
-</section>
-<!--End Sobre-->
+  </section>
+  <!--End About-->
+
+  <!--Contact Section-->
+
+  <section>
+
+    <div class="padd2">
+      <h1 class="animate__animated animate__flash">CONTACT US</h1>
+      <br>
+      <p>Watch our social media or send us an e-mail.</p>
+      <br>
+      <p class="subtitle">
+        <a class="subtitle" href="https://instagram.com/kiuistudiodev" target="_blank">
+          <img src="images/social/instagram.png" alt="Instagram"> @kiuistudiodev</a>
+        <br />
+        <br />
+      <p class="animate__animated animate__flash">
+        <a class="subtitle" href="https://instagram.com/kiuistudiodev" target="_blank">
+          <img src="images/social/github.png" alt="Github"> @kiuistudio</a>
+        <br>
+        <br>
+      <p class="subtitle">
+        <img src="images/social/email.png" alt="kiui e-mail"> kiuistudio@mailfence.com
+      </p>
+      <br>
+      <br>
+
+      <p><a class="subtitle" href="blog.html" target="_self">
+          <img src="images/social/pencil-solid.svg" alt="kiui blog">
+          Kiui Blog - HowTo, Tutorials, Work process</a></p>
+      <br />
+      <p><a class="subtitle" href="https://kiuistudio.itch.io/" target="_blank">
+          <img src="images/social/itch-io.svg" alt="itch-io">
+          Kiui store - Downloads our Game assets(also free)</a></p>
+      <br />
+
+    </div>
 
 
-<!--Footer-->
+  </section>
 
-<footer>
+
+  <!--Footer-->
+
+  <footer>
     <p class="animate__animated animate__flash">
-        <a href="https://instagram.com/kiuistudiodev" target="_blank"> 
-            <img src="images/instagram.png" alt="Github"> 
-        </a> | 
-        <a href="#" target="_blank">
-            <img src="images/email.png" alt="kiui email"> 
-            kiuistudio@mailfence.com
-        </a> 
+      <a href="https://instagram.com/kiuistudiodev" target="_blank">
+        <img src="images/social/instagram.png" alt="Github">
+      </a> |
+      <a href="#" target="_blank">
+        <img src="images/social/email.png" alt="kiui email">
+        kiuistudio@mailfence.com
+      </a>
     </p>
     <br>
-    <p class="footer-small-font">Developed by  </p>
-    <p class="footer-small-font" class="animate__animated animate__flash">© KIUI STUDIO 2023</p>
-    <br/>
-</footer>
-    
-</body>
-</html>
+    <p class="footer-small-font">Developed by </p>
+    <p class="footer-small-font" class="animate__animated animate__flash">© KIUI STUDIO 2024</p>
+    <br />
+  </footer>
 
+</body>
+
+</html>
