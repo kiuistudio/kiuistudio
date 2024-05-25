@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+
+:root {    
+    --cor01: #82D4F4;
+    --corBG: black;
+    --font1: 'Mansalva', sans-serif;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font1);
+    letter-spacing: 0.1em;
+    
+}
+
+body {
+    
+    background-color: var(--corBG);
+}
+
+.title {
+    margin-top: 0.8em;
+}
+
+.subtitle {
+    margin-top: 1em;
+}   
+
+.backwallContainer img{
+    min-height: 300px;
+    min-width:  300px;
+    border-radius: 20px;
+}
+
+.gameassets img{
+    border-radius: 20px;
+}
